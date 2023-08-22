@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tela de Login | League of legends</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="login">
+        <div class="wrapper">
+          <!-- section de login com logo + inputs -->
+          <img src="./images/logo.png" alt="" class="login_logo" />
+
+          <h1 class="login_title">Fazer login</h1>
+
+          <!-- label para criação do login -->
+          <label class="login_label">
+            <span>nome de usuário</span>
+            <input type="text" name="username" class="input" />
+          </label>
+
+          <label class="login_label">
+            <span>senha</span>
+            <input type="password" name="password" class="input" />
+          </label>
+
+          <!-- div para os botôes das redes sociais -->
+          <div class="login_icons">
+            <button type="button" class="icons_button">
+              <img src="./images/facebook-icon.png" alt="facebook" />
+            </button>
+
+            <button type="button" class="icons_button">
+              <img src="./images/google-icon.png" alt="google" />
+            </button>
+
+            <button type="button" class="icons_button">
+              <img src="./images/apple-icon.png" alt="apple" />
+            </button>
+          </div>
+
+          <!-- label para checkbox de manter logado -->
+          <label class="login_checkbox--checkbox">
+            <input type="checkbox" class="input--checkbox" />
+            Manter Login
+          </label>
+        </div>
+
+        <div class="wrapper">
+          <button type="button" class="login_button" disabled>
+            <img
+              src="./images/arrow_arrows_back_direction_left_navigation_right_icon_123236.png"
+              alt="arrow"
+            />
+          </button>
+
+          <a href="#" class="login__link">não consegue iniciar sessão?</a>
+          <a href="#" class="login__link">criar conta</a>
+        </div>
+      </section>
+
+      <section class="wallpaper"></section>
+    </main>
+  </body>
+</html>
